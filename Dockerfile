@@ -1,9 +1,6 @@
 FROM evarga/jenkins-slave
 MAINTAINER filip@devzion.xyz
 
-# remove openjdk
-RUN apt remove -y openjdk*
-
 # install git
 RUN apt-get update
 RUN apt-get install -y git jq wget xz-utils
