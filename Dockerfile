@@ -3,7 +3,7 @@ MAINTAINER filip@devzion.xyz
 
 # install dependencies
 RUN apt-get update
-RUN apt-get install -y git jq wget xz-utils build-essential python docker.io
+RUN apt-get install -y git jq wget xz-utils build-essential python
 
 # install node 4
 RUN wget https://nodejs.org/dist/v4.4.4/node-v4.4.4-linux-x64.tar.xz -P /tmp
